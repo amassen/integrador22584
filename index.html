@@ -11,7 +11,7 @@
 
 <body>
   <div class="container-sm">
-    <nav class="navbar fixed-top navbar-expand-lg bggrisoscuro">
+    <nav class="navbar navbar-expand-lg bggrisoscuro fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand text-light" href="#"><img src="images/codoacodo.png" alt="Codo a Codo" width="100" class="d-inline-block align-text-center"> Conf Bs As</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -19,7 +19,7 @@
         </button>
         <ul class=" collapse navbar-collapse nav justify-content-end" id="collapsibleNavbar">
           <li class="nav-item">
-            <a class="nav-link active link-light" aria-current="page" href="#">La conferencia</a>
+            <a class="nav-link active link-light" href="#">La conferencia</a>
           </li>
           <li class="nav-item">
             <a class="nav-link link-secondary" href="#oradores">Los oradores</a>
@@ -38,34 +38,32 @@
     </nav>
   </div>
 
-  <div class="container-fluid">
-    <div class="card text-bg-dark text-end">
+  <div class="container-fluid mt-5">
+    <div class="card text-bg-dark text-end" style="margin-top: 80px;">
       <img src="images/palacio.jpg" class="card-img opacity-50" alt="Bs As">
-      
-      <div class="card-img-overlay  top-50">
-        <div class="row">
-          <div class="col-6"></div>
-          <div class="col-6">
+      <div class="card-img-overlay d-flex align-items-sm-center">
+        <div class="row ">
+          <div class="col-md-6"></div>
+          <div class="col-md-6">
             <h3 class="card-title ">Conf Bs As</h3>
             <p class="card-text">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
             <a class="btn btn-outline-light" href="#seorador" role="button">Quiero ser orador</a>
             <a class="btn bgverde text-white" href="#" role="button">Comprar tickets</a>
           </div>
         </div>
-
       </div>
     </div>
   </div>
 
-  <div class="container my-3" id="oradores">
+  <div class="container my-3" id="oradores" style="scroll-margin-top: 90px;">
     <p class="h6 text-center">CONOCE A LOS</p>
     <p class="h3 text-center">ORADORES</p>
   </div>
 
   <div class="container-fluid">
     <div class="row d-flex justify-content-center">
-      <div class="col-sm-3"> 
-        <div class="card" style="width: 18rem;">
+      <div class="col-lg-3"> 
+        <div class="card" style="width: 16rem ; margin: 0 auto;" >
           <img src="images/steve.jpg" class="card-img-top pb-2" alt="Bill Gates">
           <div class="card-body">
             <a href="#" class="btn btn-warning btn-sm fw-bold py-0">JavaScript</a>
@@ -76,8 +74,8 @@
         </div>
       </div>
       
-      <div class="col-sm-3"> 
-        <div class="card" style="width: 18rem;">
+      <div class="col-lg-3"> 
+        <div class="card" style="width: 16rem;  margin: 0 auto;">
           <img src="images/bill.jpg" class="card-img-top" alt="Bill Gates">
           <div class="card-body">
             <a href="#" class="btn btn-warning btn-sm fw-bold py-0">JavaScript</a>
@@ -88,8 +86,8 @@
         </div>
       </div>
 
-      <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
+      <div class="col-lg-3">
+        <div class="card" style="width: 16rem;  margin: 0 auto;">
           <img src="images/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
           <div class="card-body">
             <a href="#" class="btn btn-secondary btn-sm fw-bold py-0">Negocios</a>
@@ -103,10 +101,10 @@
   </div>
 
   <div class="container-fluid">
-    <div class="card my-4" id="honolulu" ;>
+    <div class="card my-4" id="honolulu"  style="scroll-margin-top: 90px; height: 100%; object-fit: cover;";>
       <div class="row g-0">
         <div class="col-md-6">
-          <img src="images/honolulu.jpg" class="img-fluid rounded-start" alt="Honolulu">
+          <img src="images/honolulu.jpg" class="img-fluid rounded-start"  style="height: 100%; object-fit: cover;" alt="Honolulu">
         </div>
         <div class="col-md-6 bggrisoscuro text-white">
           <div class="card-body">
@@ -119,7 +117,7 @@
     </div>
   </div>      
 
-  <div id="seorador" class="my-3">
+  <div id="seorador" class="my-3" style="scroll-margin-top: 90px;">
     <p class="h6 text-center">CONVIÉRTETE EN UN</p>
     <p class="h1 text-center">ORADOR</p>
     <p class="h6 text-center">Anótate como orador para dar una <abbr title="tu idea en 5 minutos">charla ignite</abbr> . Cuéntanos de qué quieres hablar!</p>

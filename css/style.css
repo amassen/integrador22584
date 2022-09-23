@@ -3,7 +3,7 @@
 }
 
 .txtverde {
-    color: rgb(41,167,68)
+    color: rgb(41,167,68);
 }
 
 .bgverde {
@@ -20,10 +20,6 @@
 
 .bgverdeclaro {
     background-color: rgb(150,201,62);
-}
-
-.txtverhov:hover {
-    color: rgb(150,201,62); 
 }
 
 .bgazul {
