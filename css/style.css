@@ -19,6 +19,13 @@
     background-color: rgb(23,162,183);
 }
 
+.bghonolulu {
+    background-image: url(images/honolulu.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
 .bgverdeclaro {
     background-color: rgb(150,201,62);
 }
