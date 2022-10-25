@@ -20,7 +20,7 @@
 }
 
 .bghonolulu {
-    background-image: url(images/honolulu.jpg);
+    background-image: url(images/honolulu.jpg); 
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -32,4 +32,20 @@
 
 .bgazul {
     background-color: rgb(29,64,84);
+}
+
+.bordeazul {
+    border-color: rgb(0,123,255);
+}
+
+.bordeverde {
+    border-color: rgb(23,162,184);
+}
+
+.bordemostaza {
+    border-color: rgb(255,193,7);
+}
+
+.bgtotal {
+    background-color: rgb(204,229,255);
 }
