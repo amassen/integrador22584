@@ -30,5 +30,6 @@ function borrar() {
     document.getElementById("apellido").value="";
     document.getElementById("email").value="";
     document.getElementById("cant").value="";
+    document.getElementById("categ").value="1";
     document.getElementById("total").innerHTML=`Total a Pagar: $`;
 }
