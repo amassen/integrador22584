@@ -26,8 +26,9 @@ function calcPrecio() {
 
 
 function borrar() {
-    document.getElementById("nombre").value=""
-    document.getElementById("apellido").value=""
-    document.getElementById("email").value=""
-    document.getElementById("cant").value=""
+    document.getElementById("nombre").value="";
+    document.getElementById("apellido").value="";
+    document.getElementById("email").value="";
+    document.getElementById("cant").value="";
+    document.getElementById("total").innerHTML=`Total a Pagar: $`;
 }

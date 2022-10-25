@@ -30,6 +30,10 @@
     background-color: rgb(150,201,62);
 }
 
+.focusBtn:focus {
+    background-color: rgb(150,201,62) !important;
+}
+
 .bgazul {
     background-color: rgb(29,64,84);
 }
